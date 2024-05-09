@@ -26,9 +26,6 @@ body {
     font-style: normal;
     font-size: 22px;
     background: #F5E2BE;
-    /*background: #1D976C;   fallback for old browsers 
-    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);   Chrome 10-25, Safari 5.1-6 
-    background: linear-gradient(to right, #93F9B9, #1D976C);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
@@ -66,20 +63,20 @@ h3 {
 .icon-circle {
     
     display: inline-flex;
-    align-items: center; /* Centra verticalmente */
+    align-items: center; 
     justify-content: center;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: #f8c0a9; /* Cambia el color del círculo según tu preferencia */
+    background-color: #f8c0a9; 
    
     line-height: 30px;
-    margin-right: 10px; /* Ajusta el espaciado entre el icono y el texto */
+    margin-right: 10px; 
     
 }
 
 .icon-circle i {
-    color: white; /* Cambia el color del icono según tu preferencia */
+    color: white; 
 }
 
 .info {
