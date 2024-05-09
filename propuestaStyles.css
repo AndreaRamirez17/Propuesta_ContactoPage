@@ -51,7 +51,7 @@ h3 {
     font-style: normal;
     font-size: 26px;
 }
-#exampleFormControlTextarea1{
+#textarea{
     resize: none;
 }
 .bg-green{
@@ -87,3 +87,10 @@ h3 {
     vertical-align: middle;
 }
 
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: black;
+    padding-top:20px ;
+}
