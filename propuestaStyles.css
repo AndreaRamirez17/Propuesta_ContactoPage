@@ -25,9 +25,10 @@ body {
     font-weight: 100;
     font-style: normal;
     font-size: 22px;
-    background: #1D976C;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #F5E2BE;
+    /*background: #1D976C;   fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);   Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #93F9B9, #1D976C);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
@@ -53,9 +54,36 @@ h3 {
 #exampleFormControlTextarea1{
     resize: none;
 }
-.bg-white{
-    background-color: #fff;
- 
+.bg-green{
+    border-radius: 3%;
+    background: #f5e2be; /* 7c946c f3ab91 f5e2be f8c0a9*/
+}
 
+.form-label{
+    color: black;
+}
+
+.icon-circle {
+    
+    display: inline-flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f8c0a9; /* Cambia el color del círculo según tu preferencia */
+   
+    line-height: 30px;
+    margin-right: 10px; /* Ajusta el espaciado entre el icono y el texto */
+    
+}
+
+.icon-circle i {
+    color: white; /* Cambia el color del icono según tu preferencia */
+}
+
+.info {
+    display: inline-block;
+    vertical-align: middle;
 }
 
