@@ -85,12 +85,11 @@ h3 {
     vertical-align: center;
 }
 
-.warnings{
-    width: 200px;
+.warnings {
+    color: red; /* Color del texto de advertencia */
+    font-size: 14px; /* Tamaño de la fuente */
+    margin-top: 10px; /* Espacio desde la parte superior del contenedor */
     text-align: center;
-    margin: auto;
-    color: black;
-    padding-top:20px ;
 }
 #myMap {
     width: 95%; 
