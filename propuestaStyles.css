@@ -86,9 +86,9 @@ h3 {
 }
 
 .warnings {
-    color: red; /* Color del texto de advertencia */
-    font-size: 14px; /* Tamaño de la fuente */
-    margin-top: 10px; /* Espacio desde la parte superior del contenedor */
+    color: red; 
+    font-size: 14px; 
+    margin-top: 10px; 
     text-align: center;
 }
 #myMap {
@@ -109,3 +109,27 @@ h3 {
     margin-bottom: 0; 
 }
 
+ /*Estilos para el footer*/
+
+footer{
+    background-color: #c76a67;
+}
+
+
+#FooterRibbon{
+    background-image: linear-gradient(to left, #e0c89a, #e07A76);
+}
+
+#Copyright{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#FooterLine{
+    background-color: #f4e2b3;
+    height: 3px;
+    width: 60px;                    
+}
+
+.my-5{
+    margin: 0%;
+}
